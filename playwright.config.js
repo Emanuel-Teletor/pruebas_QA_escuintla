@@ -2,6 +2,7 @@
 import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
+    testDir: './pruebas_QA_escuintla',
   timeout: 30 * 1000,
   retries: 1,               // Reintenta 1 vez si falla (reduce flaky tests)
   reporter: [
